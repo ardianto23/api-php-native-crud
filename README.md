@@ -1,18 +1,5 @@
- API CRUD PHP Native
-
-Proyek ini merupakan implementasi **RESTful API sederhana** menggunakan **PHP Native** dan **MySQL**.  
-Tujuan proyek ini adalah untuk menampilkan cara kerja dasar **CRUD (Create, Read, Update, Delete)** pada data `User` tanpa menggunakan framework seperti Laravel.
-
----
-
- Teknologi yang Digunakan
-- **PHP 8+**
-- **MySQL / MariaDB**
-- **Laragon / XAMPP (Localhost)**
-- **Postman** untuk pengujian API
-
----
-
+Nama:ARDIANTO SATTU PADANG
+NIM :223-611-121
  Struktur Folder
 
 api-php-native-crud/
@@ -28,8 +15,6 @@ api-php-native-crud/
 │ │ └── User.php
 │ └── Router.php
 └── README.md
-
-
 ---
 
  Fitur CRUD User:
@@ -39,14 +24,3 @@ POST /api/v1/users – Tambah user baru.
 PUT /api/v1/users/{id} – Update data user.
 DELETE /api/v1/users/{id} – Hapus user.
 
----
-
-Struktur Database
-Gunakan SQL berikut untuk membuat tabel users:
-
-CREATE TABLE users (
- id INT AUTO_INCREMENT PRIMARY KEY,
- username VARCHAR(100) NOT NULL,
- email VARCHAR(100) NOT NULL UNIQUE,
- password VARCHAR(255) NOT NULL
-);
